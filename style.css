@@ -4,6 +4,10 @@ body {
 
 }
 
+img {
+    width: 100%;
+}
+
 
 
 
@@ -116,6 +120,7 @@ h1 {
 /* new */
 .container {
     display: flex;
+    height: 60vh;
 }
 
 .cards {
