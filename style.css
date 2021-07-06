@@ -128,9 +128,9 @@ h1 {
     border-radius: 20px;
 }
 
-/* .image img {
+.image img {
     width: 100%;
-} */
+}
 
 .card {
     display: flex;
