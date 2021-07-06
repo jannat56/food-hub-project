@@ -1,0 +1,166 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+
+
+
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: black;
+}
+
+.navbar ul li {
+    display: inline-block;
+
+
+
+}
+
+.navbar li a {
+    display: block;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 20px;
+    color: orange;
+    letter-spacing: 5px;
+
+
+}
+
+.navbar li:hover {
+    background: whitesmoke;
+}
+
+
+
+
+h1 {
+    font-size: 50px;
+
+}
+
+.orange-color {
+    color: orange;
+}
+
+
+
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 8%;
+}
+
+.half-width img {
+    width: 90%;
+}
+
+.about-width {
+
+    width: 50%;
+
+}
+
+.about-width img {
+    width: 200%;
+
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: palevioletred;
+
+    font: weight 700px;
+    margin-bottom: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.link-button:hover {
+    background: skyblue;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.about {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400%;
+}
+
+.reciepe {
+    text-align: center;
+    margin: 20px 40px;
+    padding: 20px;
+}
+
+/* new */
+.container {
+    display: flex;
+}
+
+.cards {
+    width: 33.3%;
+    margin: 20px 40px;
+    padding: 10px 20px;
+    overflow: hidden;
+    border: 8px solid #fff;
+    box-shadow: 10px 10px 40px rgb(114, 112, 112);
+    border-radius: 20px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: orange;
+    justify-content: space-around;
+    flex-flow: wrap;
+    border-radius: 20px;
+    margin-bottom: 80px;
+
+
+}
+
+.design {
+    width: 20%;
+
+}
+
+
+
+.foot {
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    padding: 40px;
+
+
+}
+
+.title h1 {
+    font-size: 16px;
+}
